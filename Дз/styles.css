@@ -1,0 +1,47 @@
+BODY {
+	background: url("fon.png");
+	margin: 0px;
+}
+h1 {
+	text-align: center;
+}
+.form {
+	background: grey;
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 10%;
+	margin-bottom: 40px;
+}
+.form-group {
+	margin-top: 25px;
+	margin-left: 35%;
+}
+main {
+	margin-right: 0;
+	font-size: 25px;
+	text-align: justify;
+}
+.form-label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	margin-left: 40%;
+}
+footer {
+	color: #FFB6C1;
+	position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #413D3D;
+	font-size: 10px;
+    width: 100%
+}
