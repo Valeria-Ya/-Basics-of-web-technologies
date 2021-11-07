@@ -1,0 +1,185 @@
+body {
+	background: url("fon.png");
+	margin: 0;
+}
+
+A {
+	font-family: 'Bad Script', cursive;
+	color: black;
+	text-decoration: none;
+}
+A:visited {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: black;
+}
+A:active {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFA07A;
+}
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+/*.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+
+.main-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media all and (max-width: 600px) {
+	.main-menu {
+		flex-direction: column;
+		align-items: center;
+	}
+	.navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+	.flex-wrapper {
+		flex-direction: column;
+	}
+}
+
+header {
+	border-bottom: 5px solid #DCDCDC;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 25px;
+    background-color: #413D3D;
+	/* position: fixed; */
+	top: 0;
+	border-bottom: 3px solid #C0C0C0;	
+	padding-top: 15px;
+	width: 100%;
+	padding-bottom: 5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.main-menu a{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+
+.profile {
+	/*float: right;*/
+	display: flex;
+}
+
+.navigation {
+	/*float: left;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-wrapper {
+	display: flex;
+}
+.form-group {
+	margin-bottom: 5px;
+}
+
+.goods-list {
+	/* margin-left: 250px; */
+	padding: 20px;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.goods {
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	min-height:200px;
+	min-width: 250px;
+	
+}
+
+.good-img img{
+	width: 250px;
+	height: auto;
+	display: block;
+}
+
+
+
+.price-and-buy {
+	height: 50px;
+}
+
+.price {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 15px;
+	background-color: #FFB6C1;
+	border: 1px solid black;
+}
+
+.buy {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 15px;
+	background-color: #FFB6C1;
+	border: 1px solid black;
+}
+
+.sidebar {
+	/*float: left;*/
+	display: flex;
+	padding: 20px;
+	width: 220px;
+	box-sizing: border-box;
+}
+.sidebar section{
+	width: 220px;
+}
+.pagination {
+	/* margin-left: 240px; */
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.pagination .btn {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #FFB6C1;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.pagination .btn.active {
+	background-color: bisque;
+}
+
+footer {
+	color: #FFB6C1;
+	position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #413D3D;
+	font-size: 10px;
+    width: 100%
+}
